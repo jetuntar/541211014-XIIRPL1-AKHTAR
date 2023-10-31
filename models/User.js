@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const UserSchema = new mongoose.Shcema({
+const UserSchema = new mongoose.Schema({
   nama: {
     type: String,
     required: [true, 'Silahkan isi nama'],
